@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API密钥"
+                },
+                "description": "请输入巴法云的API密钥（UID）",
+                "title": "巴法云配置"
+            }
+        },
+        "error": {
+            "invalid_auth": "API密钥无效",
+            "unknown": "发生未知错误"
+        },
+        "abort": {
+            "already_configured": "设备已经配置"
+        }
+    }
+}

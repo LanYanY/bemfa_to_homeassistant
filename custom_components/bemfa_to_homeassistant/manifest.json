@@ -1,0 +1,17 @@
+{
+  "domain": "bemfa_to_homeassistant",
+  "name": "Bemfa To Home Assistant",
+  "documentation": "https://github.com/yourusername/ha-bemfa2",
+  "issue_tracker": "https://github.com/yourusername/ha-bemfa2/issues",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [
+    "requests>=2.25.1",
+    "paho-mqtt>=1.5.1"
+  ],
+  "version": "1.0.0",
+  "config_flow": true,
+  "iot_class": "cloud_push",
+  "loggers": ["bemfa_to_homeassistant"],
+  "icon": "mdi:cloud-sync"
+}

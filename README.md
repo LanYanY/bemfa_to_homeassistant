@@ -2,7 +2,7 @@
 
 这是一个用于 Home Assistant 的巴法云集成组件。通过这个组件，你可以在 Home Assistant 中控制和监控你的巴法云设备。
 
-**与larry-wong/bemfa实现相反的功能！**
+**实现与larry-wong/bemfa相反的功能！**
 
 需要帮助：
 1. 我不知道如何添加icon到Home Assistant Brands

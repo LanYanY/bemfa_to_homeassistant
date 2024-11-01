@@ -1,9 +1,5 @@
 # Home Assistant 巴法云集成
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![GitHub release](https://img.shields.io/github/release/yourusername/ha-bemfa.svg)](https://github.com/yourusername/ha-bemfa/releases)
-[![License](https://img.shields.io/github/license/yourusername/ha-bemfa.svg)](LICENSE)
-
 这是一个用于 Home Assistant 的巴法云集成组件。通过这个组件，你可以在 Home Assistant 中控制和监控你的巴法云设备。
 
 ## 功能特点
@@ -55,6 +51,7 @@
 | 空调 | 005 | - 开/关：`on`/`off`<br>- 模式：`on#模式#温度`<br>  模式值：2=制冷，3=制热，4=送风，<br>  5=除湿，6=睡眠，7=节能<br>- 温度范围：16-32°C |
 | 窗帘 | 009 | - 开/关：`on`/`off`<br>- 暂停：`pause`<br>- 位置：`on#位置值`（0-100） |
 | 传感器 | 004 | 数据格式：`#温度#湿度#开关#光照#pm2.5#心率`<br>（可选参数，但#号必须保留） |
+
 可参考此文档：
 - [巴法文档中心-天猫精灵接入](https://cloud.bemfa.com/docs/src/speaker_mall.html)
 

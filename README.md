@@ -25,7 +25,7 @@
 2. 点击集成
 3. 点击右上角的三个点
 4. 选择"添加自定义仓库"
-5. 输入仓库地址: `https://github.com/yourusername/ha-bemfa`
+5. 输入仓库地址: `https://github.com/LanYanY/bemfa_to_homeassistant`
 6. 选择类别为"集成"
 7. 点击"添加"
 8. 在 HACS 中搜索"巴法云"并安装
@@ -33,7 +33,7 @@
 ### 手动安装
 
 1. 下载此仓库的最新版本
-2. 将 `custom_components/bemfa` 文件夹复制到你的 Home Assistant 配置目录下的 `custom_components` 文件夹中
+2. 将 `custom_components/bemfa_to_homeassistant` 文件夹复制到你的 Home Assistant 配置目录下的 `custom_components` 文件夹中
 3. 重启 Home Assistant
 
 ## 配置

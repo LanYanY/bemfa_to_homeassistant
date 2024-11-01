@@ -54,6 +54,7 @@
 
 可参考此文档：
 - [巴法文档中心-天猫精灵接入](https://cloud.bemfa.com/docs/src/speaker_mall.html)
+![Uploading image.png…]()
 
 ## 主题命名规则
 

@@ -4,6 +4,11 @@
 
 **与larry-wong/bemfa实现相反的功能！**
 
+需要帮助：
+1. 我不知道如何添加icon到Home Assistant Brands
+2. 我不知道如何发布自定义组件到HACS
+如果你能帮助我，可以提交Issue，谢谢你好心人
+
 ## 功能特点
 
 - 支持多种设备类型:

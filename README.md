@@ -94,10 +94,6 @@ A: 可以尝试:
 
 欢迎提交 Issue 和 Pull Request！
 
-## 许可证
-
-本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
-
 ## 致谢
 - [larry-wong/bemfa](https://github.com/larry-wong/bemfa) - 感谢这个优秀的开源项目提供的参考和灵感
 - [Home Assistant](https://www.home-assistant.io/)

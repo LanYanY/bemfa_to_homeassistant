@@ -76,15 +76,6 @@
 - `switch006` - 开关
 - `curtain009` - 窗帘
 
-## 更新日志
-
-### 2024.02.15
-- 修复了与 Home Assistant 2025.2 相关的兼容性问题：
-  - 传感器：将 `TEMP_CELSIUS` 替换为 `UnitOfTemperature.CELSIUS`
-  - 灯光：将 `ATTR_COLOR_TEMP` 替换为 `ATTR_COLOR_TEMP_KELVIN`
-  - 优化了色温控制逻辑，直接使用开尔文单位
-  - 感谢 @cnMeeko 帮助测试
-
 ### 升级说明
 如果你从旧版本升级，无需进行任何额外配置，集成会自动适应新的变更。
 

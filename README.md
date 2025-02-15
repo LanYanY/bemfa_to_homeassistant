@@ -33,7 +33,7 @@
 5. 输入仓库地址: `https://github.com/LanYanY/bemfa_to_homeassistant`
 6. 选择类别为"集成"
 7. 点击"添加"
-8. 在 HACS 中搜索"巴法云"并安装
+8. 在 HACS 中搜索"bemfa"并安装
 
 ### 手动安装
 

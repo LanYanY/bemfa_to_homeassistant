@@ -1,5 +1,5 @@
 {
-    "name": "bemfa",
+    "name": "bemfa_to_homeassistant 巴法云",
     "render_readme": true,
     "country": "CN",
     "homeassistant": "2022.5.5"

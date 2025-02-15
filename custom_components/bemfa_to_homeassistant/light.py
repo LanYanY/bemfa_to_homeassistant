@@ -6,7 +6,7 @@ from typing import Any
 
 from homeassistant.components.light import (
     ATTR_BRIGHTNESS,
-    ATTR_COLOR_TEMP,
+    ATTR_COLOR_TEMP_KELVIN,
     ColorMode,
     LightEntity,
 )
@@ -105,10 +105,10 @@ class BemfaLight(CoordinatorEntity, BemfaBaseEntity, LightEntity):
     async def async_turn_on(self, **kwargs: Any) -> None:
         """打开灯."""
         brightness = kwargs.get(ATTR_BRIGHTNESS, self._attr_brightness or 255)
-        color_temp = kwargs.get(ATTR_COLOR_TEMP, self._attr_color_temp)
+        kelvin = kwargs.get(ATTR_COLOR_TEMP_KELVIN, color_temperature_mired_to_kelvin(self._attr_color_temp))
         
         brightness_pct = max(1, min(100, round(brightness * 100 / 255)))
-        kelvin = round(color_temperature_mired_to_kelvin(color_temp) / 100) * 100
+        kelvin = round(kelvin / 100) * 100
         kelvin = max(MIN_KELVIN, min(MAX_KELVIN, kelvin))
         
         msg = f"on#{brightness_pct}#{kelvin}"

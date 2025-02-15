@@ -15,10 +15,10 @@ from homeassistant.components.binary_sensor import (
 )
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import (
-    TEMP_CELSIUS,
     PERCENTAGE,
     LIGHT_LUX,
     CONCENTRATION_MICROGRAMS_PER_CUBIC_METER,
+    UnitOfTemperature,
 )
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
@@ -39,7 +39,7 @@ SENSOR_TYPES = {
         "name": "温度",
         "device_class": SensorDeviceClass.TEMPERATURE,
         "state_class": SensorStateClass.MEASUREMENT,
-        "unit": TEMP_CELSIUS,
+        "unit": UnitOfTemperature.CELSIUS,
         "index": 1,
     },
     "humidity": {

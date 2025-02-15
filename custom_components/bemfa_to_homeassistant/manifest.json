@@ -1,8 +1,8 @@
 {
   "domain": "bemfa_to_homeassistant",
   "name": "Bemfa To Home Assistant",
-  "documentation": "https://github.com/yourusername/ha-bemfa2",
-  "issue_tracker": "https://github.com/yourusername/ha-bemfa2/issues",
+  "documentation": "https://github.com/LanYanY/bemfa_to_homeassistant",
+  "issue_tracker": "https://github.com/LanYanY/bemfa_to_homeassistant/issues",
   "dependencies": [],
   "codeowners": [],
   "requirements": [
